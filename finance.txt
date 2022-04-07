@@ -1,0 +1,19 @@
+CREATE TABLE trans(
+id INTEGER,
+stock TEXT,
+qty INTEGER,
+cost INTEGER,
+type TEXT,
+symbol TEXT
+);
+CREATE TABLE holdings(
+user_id INTEGER,
+stock TEXT,
+qty INTEGER,
+ctotal INTEGER,
+type TEXT,
+symbol TEXT,
+cprice INTEGER,
+FOREIGN KEY (user_id) 
+      REFERENCES users (id) 
+);
