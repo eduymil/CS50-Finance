@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+
+        <table id = "holdings">
+        <thead>
+            <tr>
+            <th>Current Holdings</th>
+            <th>Holdings</th>
+            <th>Trade</th>
+            <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for holds in hold %}
+            <tr>
+                <td>{{holds["stock"]}}</td>
+                <td>{{holds["qty"]}}</td>
+                <td><form method = "POST" action = "/sell">
+                        <button class="btn btn-primary"name ="symbol" type="submit" value = "{{ holds["symbol"] }}">Sell</button>
+                </td>
+                <td>
+                        <input type = "text" name = "shares" max = {{ holds["qty"]}} min = 1></input>
+                        </form>
+                </td>
+            </tr>
+        </tbody>
+        {% endfor %}
+        </table>
+    <br>
+
+{% endblock %}
