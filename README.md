@@ -6,7 +6,7 @@ The project requirements can be found <a href = "https://cs50.harvard.edu/x/2022
 # Getting Started
 <h3>Requirements</h3>
 You must have <a href="https://code.visualstudio.com/docs/python/python-tutorial">Python</a> and <a href="https://code.visualstudio.com/docs/python/tutorial-flask">Flask</a> installed in your vscode<br>
-<h3>Download or pull the code</h3>
+<h3>Download or pull the code</h3> <br>
 `git clone https://github.com/eduymil/CS50-Finance.git`
 <h3>Download required dependencies</h3><br>
 `pip install cs50`<br>
@@ -20,4 +20,4 @@ Once you’ve confirmed your account via a confirmation email, visit <a href="ht
 Copy the key that appears under the Token column (it should begin with pk_).<br>
 In your terminal window, execute
 `$env:API_KEY=value` for windows users.<br>
-`$ export API_KEY=value` for mac users.s
+`$ export API_KEY=value` for mac users.
