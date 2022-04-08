@@ -21,3 +21,4 @@ Copy the key that appears under the Token column (it should begin with pk_).<br>
 In your terminal window, execute <br>
 `$env:API_KEY=value` for windows users.<br>
 `$ export API_KEY=value` for mac users.
+a
