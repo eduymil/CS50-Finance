@@ -18,6 +18,6 @@ Visit <a href="https://iexcloud.io/cloud-login#/register/">iexcloud.io/cloud-log
 Once registered, scroll down to “Get started for free” and click “Select Start plan” to choose the free plan.<br>
 Once you’ve confirmed your account via a confirmation email, visit <a href="https://iexcloud.io/console/tokens">https://iexcloud.io/console/tokens </a>.<br>
 Copy the key that appears under the Token column (it should begin with pk_).<br>
-In your terminal window, execute
+In your terminal window, execute <br>
 `$env:API_KEY=value` for windows users.<br>
 `$ export API_KEY=value` for mac users.
