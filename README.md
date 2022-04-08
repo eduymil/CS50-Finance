@@ -9,7 +9,7 @@ You must have <a href="https://code.visualstudio.com/docs/python/python-tutorial
 <h3>Download or pull the code</h3> <br>
 `git clone https://github.com/eduymil/CS50-Finance.git`
 <h3>Download required dependencies</h3><br>
-`pip install cs50`<br>
+```pip install cs50```<br>
 `pip install Flask`<br>
 `pip install Flask-Session`<br>
 `pip install requests`<br>
