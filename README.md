@@ -20,4 +20,4 @@ Once you’ve confirmed your account via a confirmation email, visit <a href="ht
 Copy the key that appears under the Token column (it should begin with pk_).<br>
 In your terminal window, execute
 `$env:API_KEY=value` for windows users.<br>
-`$ export API_KEY=value` for mac users.
+`$ export API_KEY=value` for mac users.s
